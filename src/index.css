@@ -5,24 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: white;
-  color: black;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-body.dark-mode {
-  background-color: #121212;
-  color: #e0e0e0;
-}
-
-.dark-mode button {
-  background-color: #333;
-  color: #fff;
-  border: 1px solid #555;
-}
-
-dark-mode button:hover {
-  background-color: #555;
 }
 
 code {
