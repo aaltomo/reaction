@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .App-logo {
@@ -38,23 +41,17 @@
   }
 }
 
-body {
-  background-color: white;
-  color: black;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-body.dark-mode {
+body.dark-mode .App {
   background-color: #121212;
   color: #e0e0e0;
 }
 
-.dark-mode button {
+body.dark-mode .App button {
   background-color: #333;
   color: #fff;
   border: 1px solid #555;
 }
 
-dark-mode button:hover {
+body.dark-mode .App button:hover {
   background-color: #555;
 }
